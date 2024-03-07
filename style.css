@@ -1,73 +1,73 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-body{
-    background-color:#E9EDF0;
-    max-width:100%
+body {
+  background-color: #e9edf0;
+  max-width: 100%;
 }
 
-main{
-    width: 35%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    border: 2px solid; /* 線の太さと可視化 */
-    border-color:black;
-    border-radius: 16px;
-    padding:20px;
+main {
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid; /* 線の太さと可視化 */
+  border-color: black;
+  border-radius: 16px;
+  padding: 20px;
 }
 
-.logo{
-    vertical-align:top;
+.logo {
+  vertical-align: top;
 }
 
-.logo_img{
-    height:50px;
-    width: 50px;
+.logo_img {
+  height: 50px;
+  width: 50px;
 }
-.logo_text{
-    color:black;
-}
-
-.information{
-    font:16px;
-    font-family:"inter";
-    font-weight: bold;
-    color:#86868B;
+.logo_text {
+  color: black;
 }
 
-.form_group{
-    width: fit-content;
-    margin: auto;
-    display: flex;
+.information {
+  font: 16px;
+  font-family: "inter";
+  font-weight: bold;
+  color: #86868b;
 }
 
-.connect{
-    border:none;
-    border-radius: 16px;
-    font-size:12px;
-    width:4em;
-    color:white;
-    background-color:#373737;
-    margin-right:3px;
+.form_group {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+}
+
+.connect {
+  border: none;
+  border-radius: 16px;
+  font-size: 12px;
+  width: 4em;
+  color: white;
+  background-color: #373737;
+  margin-right: 3px;
 }
 
 .input_text {
-    border: none;
-    border-radius: 16px 0 0 16px;
-    font-size:18px;
-    color:white;
-    background-color:#373737;
+  border: none;
+  border-radius: 16px 0 0 16px;
+  font-size: 18px;
+  color: white;
+  background-color: #373737;
 }
 
 .send {
-    border:none;
-    border-radius:16px;
-    color:#373737;
-    background-color:white;
+  border: none;
+  border-radius: 16px;
+  color: #373737;
+  background-color: white;
 }
