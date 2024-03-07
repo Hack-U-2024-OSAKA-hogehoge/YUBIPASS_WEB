@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YubiPass</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="serial.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+         <h1 class="logo_text"><img src="YubiPass_logo.png" class="logo_img">YubiPass</h1>
+      </div>
+      <p class="information">
+          あなただけのパスワードを作成します。<br>
+          ハードウェアを接続してください。
+      </p>
+      <div class="form_group">
+        <button  class="connect">connect</button>
+        <form action="">
+          <div>
+            <input type="text"><button class="send">
+              ▲
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
