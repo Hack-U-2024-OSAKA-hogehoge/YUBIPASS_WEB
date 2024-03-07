@@ -1,6 +1,13 @@
 let port;
+// CryptoJSを使用してハッシュを計算する
 
 async function onConnectButtonClick() {
+  // 入力されたテキストをSHA256でハッシュ化
+  let input_text = document.getElementById("sendInput").value;
+  let hash = CryptoJS.SHA256(input_text);
+  let hash_value = hash.toString(CryptoJS.enc.Hex);
+  // console.log(hash_value);
+
   try {
     port = await navigator.serial.requestPort();
     await port.open({ baudRate: 115200 });
