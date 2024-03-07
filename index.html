@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YubiPass</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
     <script src="serial.js"></script>
   </head>
   <body>
     <main>
       <div class="logo">
-         <h1 class="logo_text"><img src="YubiPass_logo.png" class="logo_img">YubiPass</h1>
+        <h1 class="logo_text">
+          <img src="YubiPass_logo.png" class="logo_img" />YubiPass
+        </h1>
       </div>
       <p class="information">
-          あなただけのパスワードを作成します!<br>
-          ハードウェアを接続してください。
+        あなただけのパスワードを作成します。<br />
+        ハードウェアを接続してください。
       </p>
       <div class="form_group">
-        <button  onclick="onConnectButtonClick()" class="connect">connect</button>
+        <button onclick="onConnectButtonClick()" class="connect">
+          connect
+        </button>
         <div>
-          <input type="text" id="sendInput" class ="input_text"><input type="button" value="▲" onclick="sendSerial();" class="send">        
+          <input type="text" id="sendInput" class="input_text" />
+          <input type="button" value="▲" onclick="sendSerial();" class="send" />
         </div>
       </div>
 

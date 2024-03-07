@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 @font-face {
@@ -16,28 +16,30 @@
 body{
     background-color:#E9EDF0;
     max-width:100%
+
 }
 
-main{
-    width: 35%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    border: 2px solid; /* 線の太さと可視化 */
-    border-color:black;
-    border-radius: 16px;
-    padding:20px;
+main {
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid; /* 線の太さと可視化 */
+  border-color: black;
+  border-radius: 16px;
+  padding: 20px;
 }
 
-.logo{
-    vertical-align:top;
+.logo {
+  vertical-align: top;
 }
 
-.logo_img{
-    height:50px;
-    width: 50px;
+.logo_img {
+  height: 50px;
+  width: 50px;
 }
+
 .logo_text{
     font-family: 'Inter', sans-serif;
     color:black;
@@ -51,10 +53,10 @@ main{
     color:#86868B;
 }
 
-.form_group{
-    width: fit-content;
-    margin: auto;
-    display: flex;
+.form_group {
+  width: fit-content;
+  margin: auto;
+  display: flex;
 }
 
 .connect{
