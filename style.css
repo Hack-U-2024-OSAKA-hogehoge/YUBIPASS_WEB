@@ -37,6 +37,7 @@ main{
 .information{
     font:16px;
     font-family:"inter";
+    font-weight: bold;
     color:#86868B;
 }
 
@@ -56,7 +57,7 @@ main{
     margin-right:3px;
 }
 
-input {
+.input_text {
     border: none;
     border-radius: 16px 0 0 16px;
     font-size:18px;

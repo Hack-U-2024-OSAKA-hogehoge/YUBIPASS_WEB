@@ -18,14 +18,10 @@
           ハードウェアを接続してください。
       </p>
       <div class="form_group">
-        <button  class="connect">connect</button>
-        <form action="">
-          <div>
-            <input type="text"><button class="send">
-              ▲
-            </button>
-          </div>
-        </form>
+        <button  onclick="onConnectButtonClick()" class="connect">connect</button>
+        <div>
+          <input type="text" id="sendInput" class ="input_text"><input type="button" value="▲" onclick="sendSerial();" class="send">        
+        </div>
       </div>
     </main>
   </body>
