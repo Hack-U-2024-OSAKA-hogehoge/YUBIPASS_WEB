@@ -5,6 +5,14 @@
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('path/to/inter.woff2') format('woff2'),
+         url('path/to/inter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body{
     background-color:#E9EDF0;
     max-width:100%
@@ -31,10 +39,12 @@ main{
     width: 50px;
 }
 .logo_text{
+    font-family: 'Inter', sans-serif;
     color:black;
 }
 
 .information{
+    font-family: 'Inter', sans-serif;
     font:16px;
     font-family:"inter";
     font-weight: bold;
@@ -50,6 +60,7 @@ main{
 .connect{
     border:none;
     border-radius: 16px;
+    font-family: 'Inter', sans-serif;
     font-size:12px;
     width:4em;
     color:white;
@@ -60,6 +71,7 @@ main{
 .input_text {
     border: none;
     border-radius: 16px 0 0 16px;
+    font-family: 'Inter', sans-serif;
     font-size:18px;
     color:white;
     background-color:#373737;
@@ -67,6 +79,7 @@ main{
 
 .send {
     border:none;
+    font-family: 'Inter', sans-serif;
     border-radius:16px;
     color:#373737;
     background-color:white;
