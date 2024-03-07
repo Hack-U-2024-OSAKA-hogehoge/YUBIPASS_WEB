@@ -86,3 +86,10 @@ main {
     color:#373737;
     background-color:white;
 }
+
+textarea {
+  /* 以下の要素を解除したら消す */
+  /* display: none; */
+  height: 100px;
+  width: 100px;
+}
