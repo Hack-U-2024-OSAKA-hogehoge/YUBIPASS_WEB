@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YubiPass</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script src="serial.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <main>
@@ -29,7 +29,9 @@
           <li class="historyText">History</li>
           <ul id="savedList" class="savedList"></ul>
         </ul>
+        <textarea cols="80" rows="16" id="outputArea" readonly></textarea>
         <script src="cookie.js"></script>
+        <script src="serialconect.js"></script>
     </main>
     <!-- 下の１行いらない -->
     <!-- <br><textarea cols="80" rows="16" id="outputArea" readonly></textarea><br>↑テスト用 -->
