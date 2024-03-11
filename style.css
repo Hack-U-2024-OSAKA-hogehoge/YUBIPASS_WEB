@@ -109,10 +109,29 @@ li{
     border-radius:50%;
 }
 
+hr{
+    background-color:black;
+    height: 3px;
+    width: 100%;
+}
+
+.historyText{
+    font-size:30px;
+    color:black;
+}
+
+.savedList{
+    height:8em;
+    padding-top:5px;
+    font-size: 16px;
+    font-family:"inter";
+    color:#86868B;
+    overflow-y: scroll;
+}
+
 footer{
     font-size:23px;
     position:absolute;
     top:93%;
     width:100%;
 }
-
