@@ -53,7 +53,6 @@ li{
 .logo_text{
     font-size:40px;
     color:black;
-    padding-bottom:5px;
 }
 
 .information_pass{
@@ -75,7 +74,7 @@ li{
     width: fit-content;
     margin: auto;
     display: flex;
-    padding-top:15px;
+    padding-top:10px;
 }
 
 .connect{
@@ -83,6 +82,7 @@ li{
     border-radius: 16px;
     font-size:12px;
     width:5em;
+    height:2.5em;
     color:white;
     background-color:#373737;
     margin-right:3px;
@@ -101,7 +101,7 @@ li{
 
 .send {
     position: absolute;
-    top:19px;
+    top:15px;
     right:7px;
     height: 22px;
     width: 22px;
@@ -116,14 +116,13 @@ hr{
 }
 
 .historyText{
-    font-size:30px;
+    font-size:25px;
     color:black;
 }
 
 .savedList{
     height:8em;
-    padding-top:5px;
-    font-size: 16px;
+    font-size: 14px;
     font-family:"inter";
     color:#86868B;
     overflow-y: scroll;

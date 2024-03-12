@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const inputDataField = document.getElementById('sendInput');
-    const saveButton = document.getElementById('send');
-    const savedList = document.getElementById('savedList');
+  const inputDataField = document.getElementById('inputData');
+  const saveButton = document.getElementById('saveButton');
+  const savedList = document.getElementById('savedList');
 
-     // 保存ボタンがクリックされたときの処理
-  function onSaveButtonClick() {
+  // 保存ボタンがクリックされたときの処理
+  saveButton.addEventListener('click', function() {
     const inputData = inputDataField.value;
 
     if (inputData.trim() !== '') {
@@ -17,11 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // 保存された情報を表示
       displaySavedData(savedData);
+    } else {
+      alert('情報を入力してください');
     }
-  }
-
-  // 保存ボタンがクリックされたときのイベントリスナーを登録
-  saveButton.addEventListener('click', onSaveButtonClick);
+  });
 
   // ページ読み込み時に保存された情報を表示
   const savedData = getSavedData();

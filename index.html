@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YubiPass</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
-    <script src="serial.js"></script>
-  </head>
-  <body>
-    <main>
+        <script src="serial.js"></script>
+    <title>YubiPass</title>
+    </head>
+    <body>
+      <main>
         <ul class="logo">
           <li><img src="YubiPass_logo.png" class="logo_img"></li>
-          <li class="logo_text">YubiPass<li>
+          <li class="logo_text">YubiPass</li>
         </ul>
-        
-        <p class="information_pass">あなただけのパスワードを作成します。</p>
-        <p class="information_hard">ハードウェアを接続してください。</p>
-        <div class="form_group">
-          <button  onclick="onConnectButtonClick()" class="connect">connect</button>
-          <form>
-            <input type="text" id="sendInput" class ="input_text"><input type="image" src="send.png" onclick="sendSerial();" id="send" class="send">        
-          </form>
+        <div id="infoForm" class="form_group">
+          <label for="inputData"><p class="information_pass">あなただけのパスワードを作成します。
+            <p class="information_hard">ハードウェアを接続してください</label><br>
+            <ul class="form_group">
+              <li><button  onclick="onConnectButtonClick()" class="connect">connect</button></li>
+              <li><input type="text" id="inputData" class="input_text" name="inputData"><li>
+              <li><img src="save_button.png" id="saveButton" class="send" alt="Save"></li>
+            </ul>
+            <br>
         </div>
-        <br>
         <hr>
-        <ul class="history">
-          <li class="historyText">History</li>
+        <div id="savedInfo" class="historyText">
+          <h2>Histry</h2>
           <ul id="savedList" class="savedList"></ul>
-        </ul>
+        </div>
+
         <script src="cookie.js"></script>
-    </main>
-    <!-- 下の１行いらない -->
-    <!-- <br><textarea cols="80" rows="16" id="outputArea" readonly></textarea><br>↑テスト用 -->
+      </main>
+    </body>
     <footer>
       ©hogehoge
     </footer>
